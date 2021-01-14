@@ -17,7 +17,7 @@ describe('Arrays', () => {
 
     describe('getCSV', () => {
         it('should convert an array to a comma seperated list', () => {
-            expect(arraySuite.reverse(['foo', 'bar', 'baz'])).toEqual('foo,bar,baz');
+            expect(arraySuite.getCSV(['foo', 'bar', 'baz'])).toEqual('foo,bar,baz');
         });
     });
 });
