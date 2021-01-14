@@ -34,6 +34,7 @@ class ObjectSuite {
      * @param {String} key 
      */
     getValueOf(object, key) {
+        return object[key];
     }
 
 }

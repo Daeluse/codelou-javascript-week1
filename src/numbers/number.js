@@ -22,6 +22,7 @@ class NumberSuite {
     convertToNumber(numberString) {
         // Use this line as an additional hint when completing this challenge (casing matters).
         // return Number.<METHOD_NAME>(numberString);
+        return Number.parseInt(numberString);
     }
 
     /**
@@ -32,7 +33,7 @@ class NumberSuite {
      * @param {String} string
      */
     calculateStringLength(string) {
-
+        return string.length;
     }
 
 }

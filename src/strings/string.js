@@ -18,7 +18,7 @@ class StringSuite {
      * @param {String} string 
      */
     removeWhiteSpace(string) {
-        string.trim();
+        return string.trim();
     }
 
     /**
@@ -33,6 +33,7 @@ class StringSuite {
      * @param {String} subString
      */
     containsSubString(string, subString) {
+        return string.toLowerCase().includes(subString.toLowerCase());
     }
 
 }

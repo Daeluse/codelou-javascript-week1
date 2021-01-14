@@ -16,7 +16,7 @@ class BooleanSuite {
      * Hint: Remember how different types are written
      */
     executeConditional() {
-        var conditional = 'false';
+        var conditional = false;
 
         // Don't change anything below this line.
         if (conditional) { 

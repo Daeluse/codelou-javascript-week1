@@ -25,6 +25,7 @@ class ArraySuite {
      * @param {Array} list 
      */
     getFirstIndex(list) {
+        return list[0];
     }
 
     /**
@@ -35,6 +36,7 @@ class ArraySuite {
      * @param {Array} list
      */
     reverse(list) {
+        return list.reverse();
     }
 
     /**
@@ -45,6 +47,7 @@ class ArraySuite {
      * @param {Array} list
      */
     getCSV(list) {
+        return list.join(',');
     }
 
 }
