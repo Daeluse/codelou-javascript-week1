@@ -20,7 +20,7 @@ class NumberSuite {
      * @param {String} numberString 
      */
     convertToNumber(numberString) {
-        // Use this line as an additional hint when completing this challenge.
+        // Use this line as an additional hint when completing this challenge (casing matters).
         // return Number.<METHOD_NAME>(numberString);
     }
 

@@ -17,7 +17,7 @@ If you do not already have NodeJS installed on your machine, you can download it
 
 Once downloaded and installed, verify you can run `node --version` and `npm --version` without error.
 
-Now you will be able to install the dependencies needed to run test your work. In your terminal, execute the following command.
+Now you will be able to install the dependencies needed to run test your work. In your terminal, execute the following command from within the root folder of the repository you just downloaded. To make sure you're in the right place, you can use `ls` or `dir` from your terminal to view folder contents, you should see a package.json file listed out.
 
 `npm ci`
 
