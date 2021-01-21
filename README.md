@@ -1,5 +1,5 @@
-# codelou-javascript-week1
-Week 1 Challenged for CodeLou's Javascript track
+# codelou-javascript-week2
+Week 2 Challenges for CodeLou's Javascript track
 
 ## Getting Started
 This repository is optimized for development using the VS-Code IDE. This editor can be downloaded for free from https://code.visualstudio.com/.
