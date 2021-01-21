@@ -32,17 +32,7 @@ class AjaxSuite {
      */
     wordSearch(name) {
         // Implement your solution below this line
-        return new Promise((resolve) => {
-            const xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = () => {
-                if (xhr.readyState === 4 && xhr.status === 200) {
-                    console.log('foo', xhr.status);
-                    resolve(xhr.response);
-                }
-            };
-            xhr.open('GET', `${this._baseUrl}${name}`);
-            xhr.send();
-        });
+        
         // Implement your solution above this line
     }
 
