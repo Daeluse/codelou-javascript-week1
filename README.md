@@ -1,5 +1,5 @@
-# codelou-javascript-week2
-Week 2 Challenges for CodeLou's Javascript track
+# codelou-javascript-week3
+Week 3 Challenges for CodeLou's Javascript track
 
 ## Getting Started
 This repository is optimized for development using the VS-Code IDE. This editor can be downloaded for free from https://code.visualstudio.com/.
@@ -10,6 +10,10 @@ Ensure you have git installed <https://git-scm.com/>, and that you do not receiv
 From your command line or terminal window, execute the following commands in a directory you want the repository to be downloaded to.
 
 `git clone https://github.com/Daeluse/codelou-javascript-week1.git`
+
+`cd codelou-javascript-week1`
+
+`git checkout week-3`
 
 ### Installing NodeJS
 

@@ -1,7 +1,7 @@
 {
   "name": "codelou-javascript-week1",
   "version": "1.0.0",
-  "description": "Code Katas for Javascript Week 1",
+  "description": "Code Katas for Javascript Week 3",
   "main": "dist/main.js",
   "author": "Michael Wrock",
   "license": "MIT",
@@ -10,8 +10,7 @@
   },
   "scripts": {
     "test": "jest ./src/*",
-    "test:ajax": "jest ./src/ajax/*",
-    "test:dom": "jest ./src/dom/*"
+    "test:oop": "jest ./src/oop/*"
   },
   "devDependencies": {
     "jest": "^26.6.3"
