@@ -51,7 +51,7 @@ class ConditionalSuite {
      * +---------------+-------------+
      * | < 2000        |    100      |
      * +---------------+-------------+
-     * | > 2000,< 4000 |     95      |
+     * |>= 2000,<= 4000|     95      |
      * +---------------+-------------+
      * | > 4000        |     90      |
      * +---------------+-------------+
@@ -77,10 +77,12 @@ class ConditionalSuite {
      *   console.log('Its neither Foo nor Bar');
      * }
      * 
+     * If you return a value from within a case, you do not have to break from that case.
+     * 
      * Challenge 5. Use a switch statement to return the name of the day when provided the number of
      * the day in the week where Sunday === 0 and Saturday === 6.
      * 
-     * @param {Number} n - Numerical day of thw eek
+     * @param {Number} n - Numerical day of the week
      * @returns {String} - Name of the day
      */
     whatDayIsToday(n) {}

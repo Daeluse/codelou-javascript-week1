@@ -49,9 +49,9 @@ describe('Conditional Logic', () => {
         });
 
         it('should return 95 when units are greater than 2000 but less than 4000', () => {
-            expect(conditionalSuite.getPurchasePrice(2001)).toEqual(95);
+            expect(conditionalSuite.getPurchasePrice(2000)).toEqual(95);
             expect(conditionalSuite.getPurchasePrice(3000)).toEqual(95);
-            expect(conditionalSuite.getPurchasePrice(3999)).toEqual(95);
+            expect(conditionalSuite.getPurchasePrice(4000)).toEqual(95);
         });
 
         it('should return 90 when units are greater than 4000', () => {
@@ -87,7 +87,7 @@ describe('Conditional Logic', () => {
         });
 
         it('should return Saturday when 6 is given', () => {
-            expect(conditionalSuite.whatDayIsToday(5).toLowerCase()).toEqual('saturday');
+            expect(conditionalSuite.whatDayIsToday(6).toLowerCase()).toEqual('saturday');
         });
     });
 });
