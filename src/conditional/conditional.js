@@ -14,7 +14,13 @@ class ConditionalSuite {
      * @param {Number} n - Number to be checked if odd/even
      * @returns {Boolean}
      */
-    isEven(n) {}
+    isEven(n) {
+        if (n % 2 === 1) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
     /**
      * if..else logic can be extended to include additional statements by chaining
@@ -28,7 +34,15 @@ class ConditionalSuite {
      * @param {Number} age - Age of the sheep
      * @returns {String} - 'Lamb', 'Ewe', 'Raw'
      */
-    sheepClassification(gender, age) {}
+    sheepClassification(gender, age) {
+        if (age < 1) {
+            return 'Lamb';
+        } else if (gender === 'Male') {
+            return 'Ram';
+        } else {
+            return 'Ewe';
+        }
+    }
 
     /**
      * if..else logic can often times be shortened for readability by using ternaries.
@@ -39,7 +53,9 @@ class ConditionalSuite {
      * @param {Number} n - Number to be checked if odd/even
      * @returns {Boolean}
      */
-    isEvenTernary(n) {}
+    isEvenTernary(n) {
+        return (n % 2 === 1) ? false : true;
+    }
 
     /**
      * Challenge 4. When buying and selling grain in bulk, prices are often based on the amount
@@ -51,7 +67,7 @@ class ConditionalSuite {
      * +---------------+-------------+
      * | < 2000        |    100      |
      * +---------------+-------------+
-     * | > 2000,< 4000 |     95      |
+     * |>= 2000,<= 4000|     95      |
      * +---------------+-------------+
      * | > 4000        |     90      |
      * +---------------+-------------+
@@ -59,7 +75,15 @@ class ConditionalSuite {
      * @param {Number} n - Number of units being purchased
      * @returns {Number} - Price
      */
-    getPurchasePrice(n) {}
+    getPurchasePrice(n) {
+        if (n < 2000) {
+            return 100;
+        } else if (n >= 2000 && n <= 4000) {
+            return 95;
+        } else {
+            return 90;
+        }
+    }
 
     /**
      * In addition so simple if..else / ternary logic. We can perform logic based off a flag using
@@ -77,13 +101,32 @@ class ConditionalSuite {
      *   console.log('Its neither Foo nor Bar');
      * }
      * 
+     * Note that if you return a value, you don't have to break out of that case.
+     * 
      * Challenge 5. Use a switch statement to return the name of the day when provided the number of
      * the day in the week where Sunday === 0 and Saturday === 6.
      * 
      * @param {Number} n - Numerical day of thw eek
      * @returns {String} - Name of the day
      */
-    whatDayIsToday(n) {}
+    whatDayIsToday(n) {
+        switch(n) {
+            case 0:
+                return 'Sunday';
+            case 1:
+                return 'Monday';
+            case 2: 
+                return 'Tuesday';
+            case 3:
+                return 'Wednesday';
+            case 4:
+                return 'Thursday';
+            case 5:
+                return 'Friday';
+            case 6:
+                return 'Saturday';
+        }
+    }
 }
 
 module.exports = ConditionalSuite;
