@@ -13,7 +13,7 @@ From your command line or terminal window, execute the following commands in a d
 
 `cd codelou-javascript-week1`
 
-`git checkout week-3`
+`git checkout week-4`
 
 ### Installing NodeJS
 
